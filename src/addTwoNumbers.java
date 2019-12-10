@@ -38,5 +38,4 @@ Explanation: 342 + 465 = 807.
         }
         return dummyHead.next;
     }
-
 }
