@@ -2,6 +2,10 @@ package DesignPatterns.SingletonPattern;
 
 public class SingletonPatternDemo {
 
-    //TODO
+    public static void main(String[] args){
 
+        SingleObject object = SingleObject.getInstance();
+
+        object.showMessage();
+    }
 }
