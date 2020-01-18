@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodingIsFun/HavelHakimiAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingIsFun/AddingOneForEachDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingIsFun/AxisAlignedPacking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingIsFun/N_QueensValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingIsFun/PerfectlyBalanced.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/integerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/integerToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studyTime/CodingIsFun/HavelHakimiAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/CodingIsFun/HavelHakimiAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studyTime/CodingIsFun/ProgressiveTaxation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/CodingIsFun/ProgressiveTaxation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/integerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/integerToRoman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingIsFun/HavelHakimiAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingIsFun/HavelHakimiAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingIsFun/ProgressiveTaxation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingIsFun/ProgressiveTaxation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,32 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Examples/ReadingFiles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/reverseInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/integerToRoman.java">
+        <entry file="file://$PROJECT_DIR$/src/CodingIsFun/AddingOneForEachDigit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -70,10 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/twoSum.java" />
-        <option value="$PROJECT_DIR$/src/LongestSubstring.java" />
-        <option value="$PROJECT_DIR$/src/findMedianSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/findMedianSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/StrategyPatternDemo.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/IteratorPattern/IteratorPatternDemo.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/Shape.java" />
@@ -118,9 +100,13 @@
         <option value="$PROJECT_DIR$/src/Examples/ReadingFiles.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/reverseInteger.java" />
         <option value="$PROJECT_DIR$/src/CodingIsFun/MorseCode.java" />
-        <option value="$PROJECT_DIR$/src/CodingIsFun/ProgressiveTaxation.java" />
-        <option value="$PROJECT_DIR$/src/CodingIsFun/HavelHakimiAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/integerToRoman.java" />
+        <option value="$PROJECT_DIR$/src/CodingIsFun/HavelHakimiAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/CodingIsFun/ProgressiveTaxation.java" />
+        <option value="$PROJECT_DIR$/src/CodingIsFun/AxisAlignedPacking.java" />
+        <option value="$PROJECT_DIR$/src/CodingIsFun/AddingOneForEachDigit.java" />
+        <option value="$PROJECT_DIR$/src/CodingIsFun/PerfectlyBalanced.java" />
+        <option value="$PROJECT_DIR$/src/CodingIsFun/N_QueensValidator.java" />
       </list>
     </option>
   </component>
@@ -131,10 +117,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="539" />
-    <option name="y" value="51" />
-    <option name="width" value="866" />
-    <option name="height" value="828" />
+    <option name="x" value="73" />
+    <option name="y" value="72" />
+    <option name="width" value="960" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -143,7 +129,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,29 +151,18 @@
               <item name="studyTime" type="b2602c69:ProjectViewProjectNode" />
               <item name="studyTime" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studyTime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studyTime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studyTime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studyTime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579241139489" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579385062869" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -219,7 +193,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HavelHakimiAlgorithm">
+  <component name="RunManager" selected="Application.N_QueensValidator">
+    <configuration name="AddingOneForEachDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingIsFun.AddingOneForEachDigit" />
+      <module name="studyTime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodingIsFun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AxisAlignedPacking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingIsFun.AxisAlignedPacking" />
+      <module name="studyTime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodingIsFun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HavelHakimiAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodingIsFun.HavelHakimiAlgorithm" />
       <module name="studyTime" />
@@ -233,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorseCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingIsFun.MorseCode" />
+    <configuration name="N_QueensValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingIsFun.N_QueensValidator" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -246,38 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgressiveTaxation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingIsFun.ProgressiveTaxation" />
+    <configuration name="PerfectlyBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingIsFun.PerfectlyBalanced" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CodingIsFun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadingFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Examples.ReadingFiles" />
-      <module name="studyTime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="reverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.reverseInteger" />
-      <module name="studyTime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.N_QueensValidator" />
+        <item itemvalue="Application.PerfectlyBalanced" />
+        <item itemvalue="Application.AddingOneForEachDigit" />
+        <item itemvalue="Application.AxisAlignedPacking" />
         <item itemvalue="Application.HavelHakimiAlgorithm" />
-        <item itemvalue="Application.ProgressiveTaxation" />
-        <item itemvalue="Application.MorseCode" />
-        <item itemvalue="Application.reverseInteger" />
-        <item itemvalue="Application.ReadingFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -318,10 +292,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="539" y="51" width="866" height="828" extended-state="0" />
+    <frame x="156" y="115" width="960" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25728154" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24777777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -330,15 +304,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28751752" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39545456" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957035" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272059" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32659933" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32996634" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32871014" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32996634" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32772166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,34 +324,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/IteratorPattern/IteratorPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/StrategyPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/findMedianSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/ShapeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -774,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingIsFun/MorseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Examples/ReadingFiles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -791,27 +730,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/integerToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CodingIsFun/ProgressiveTaxation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+        <state relative-caret-position="-655">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodingIsFun/HavelHakimiAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/integerToRoman.java">
+    <entry file="file://$PROJECT_DIR$/src/CodingIsFun/MorseCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingIsFun/AxisAlignedPacking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="51" column="25" selection-start-line="51" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingIsFun/N_QueensValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingIsFun/PerfectlyBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="78" column="34" lean-forward="true" selection-start-line="78" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingIsFun/AddingOneForEachDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,6 @@
 package CodingIsFun;
 
 import java.util.Scanner;
-
 /*
 The nation of Examplania has the following income tax brackets:
 
@@ -28,7 +27,6 @@ public class ProgressiveTaxation {
     public int Tax(int income){
 
         double tax = 0;
-
         if(income <= 10000){
             return 0;
         }
@@ -40,7 +38,6 @@ public class ProgressiveTaxation {
         }else{
             tax = (20000*0.1)+(70000*0.25)+(income-100000)*0.4;
         }
-
         if (tax != 0){
             return (int) tax;
         }
@@ -50,10 +47,8 @@ public class ProgressiveTaxation {
     //10000-30000 -> 0-0.07
     //30000-100000 -> 0.07 - 0.2
     public int overall(double oa){
-
         return 0;
     }
-
 
     public static void main(String[] args){
 
@@ -68,9 +63,7 @@ public class ProgressiveTaxation {
             result = pt.Tax(in);
             System.out.println("The tax for the income " +in + " is: " +result);
             System.out.println("Enter your income: ");
-
         }
-
         sc.close();
     }
 }

@@ -17,16 +17,12 @@ public class HavelHakimiAlgorithm {
                 //System.out.println(result[j]);
                 j ++;
             }
-
         }
-
         return result;
     }
 
-
     public static void main(String[] args){
         HavelHakimiAlgorithm hha = new HavelHakimiAlgorithm();
-
         int[] test = {0,0,0,4,0};
 
         int[] result = hha.warmup1(test);
@@ -34,8 +30,5 @@ public class HavelHakimiAlgorithm {
         for (int y = 0; y < result.length; y ++){
             System.out.print(result[y]);
         }
-
     }
-
-
 }
