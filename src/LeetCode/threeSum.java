@@ -29,7 +29,7 @@ A solution set is:
 
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums);
-        int Tsums, right, left;
+        int right, left;
 
         for(int x = 0; x< nums.length -1; x ++){
             left = x+1;
@@ -38,9 +38,10 @@ A solution set is:
             while(left< right){
                 if(nums[x]+nums[left]+nums[right]==0){
                     if(result.contains(Arrays.asList(nums[x], nums[left], nums[right]))){
-                        break;
+
+                    }else{
+                        result.add(Arrays.asList(nums[x], nums[left], nums[right]));
                     }
-                    result.add(Arrays.asList(nums[x], nums[left], nums[right]));
                     left ++;
                     right --;
                 }else if(nums[x]+nums[left]+nums[right] > 0){

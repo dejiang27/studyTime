@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/threeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/StringToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/threeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/threeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/threeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/threeSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,13 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/threeSum.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/StringToInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="830">
+              <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -51,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/Square.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/Circle.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/FactoryPatternDemo.java" />
@@ -102,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/threeSum.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/StringToInteger.java" />
       </list>
     </option>
   </component>
@@ -111,11 +110,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="448" />
-    <option name="y" value="76" />
-    <option name="width" value="866" />
-    <option name="height" value="828" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="470" />
+    <option name="y" value="-20" />
+    <option name="width" value="1282" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,8 +122,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,7 +162,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579661107778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579759854095" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -194,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.threeSum">
+  <component name="RunManager" selected="Application.StringToInteger">
     <configuration name="LuhnAlgotithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodingIsFun.LuhnAlgotithm" />
       <module name="studyTime" />
@@ -208,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N_QueensValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingIsFun.N_QueensValidator" />
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.RomanToInteger" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodingIsFun.*" />
+          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,8 +220,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.RomanToInteger" />
+    <configuration name="StringToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.StringToInteger" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -262,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringToInteger" />
         <item itemvalue="Application.threeSum" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.integerToRoman" />
         <item itemvalue="Application.LuhnAlgotithm" />
-        <item itemvalue="Application.N_QueensValidator" />
       </list>
     </recent_temporary>
   </component>
@@ -293,10 +292,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="448" y="76" width="866" height="828" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26941746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.118120804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -305,7 +304,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2748948" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31185943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,7 +312,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32996634" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32996634" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32740742" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.43897638" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,22 +324,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/factory_pattern_diagram.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/SingletonPattern/SingleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPatterns/SingletonPattern/SingletonPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -771,13 +754,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/RomanToInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/RomanToInteger.java" />
     <entry file="file://$PROJECT_DIR$/src/CodingIsFun/AddingOneForEachDigit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -787,11 +764,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/threeSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="164">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="657" selection-start-line="657" selection-end-line="657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/StringToInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
         </state>
       </provider>
     </entry>
