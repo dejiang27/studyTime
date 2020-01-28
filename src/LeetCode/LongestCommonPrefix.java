@@ -5,7 +5,7 @@ import java.lang.reflect.Array;
 public class LongestCommonPrefix {
 
     public String longestCommon(String[] strs){
-        
+
         StringBuilder str = new StringBuilder();
         int length=Integer.MAX_VALUE;
         int result=0;
