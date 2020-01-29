@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ThreeSumClosest.java" afterDir="false" />
-    </list>
+    <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +35,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/ThreeSumClosest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="442">
               <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
             </state>
           </provider>
@@ -125,9 +123,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="803" />
-    <option name="y" value="88" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="212" />
+    <option name="y" value="71" />
     <option name="width" value="889" />
     <option name="height" value="854" />
   </component>
@@ -165,7 +163,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580249988688" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580257588921" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -295,10 +293,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="170" y="57" width="711" height="683" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09060403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20737328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -307,7 +305,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.26500732" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.35912699" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -769,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/ThreeSumClosest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="442">
           <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
         </state>
       </provider>
