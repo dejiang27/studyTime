@@ -1,7 +1,5 @@
 package LeetCode;
-
 import java.util.Arrays;
-
 public class ThreeSumClosest {
 
     public int threeSumClosest(int[] nums, int target){
@@ -37,20 +35,14 @@ public class ThreeSumClosest {
                 }
             }
         }
+
+        System.out.println("The answer is: " +(target - ans));
         return target - ans;
     }
-
-
 
     public static void main(String[] args){
         ThreeSumClosest sc = new ThreeSumClosest();
         int[] test = new int[]{-1, 2, 1, -4};
-
-        System.out.println("abs" + Math.abs(0));
-        if(Math.abs(0) < Math.abs(-1)){
-            System.out.println("you are right");
-
-        }
 
         int target = 1;
         sc.threeSumClosest(test, target);
