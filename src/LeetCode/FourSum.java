@@ -15,19 +15,17 @@ public class FourSum {
         int n = nums.length;
 
         if(n < 4){
-            return null;
+            return results;
         }
-
-        int r = n-1 , l;
 
         for(int x = 0; x < n; x ++){
             for(int y = x +1; y < n; y ++){
 
-                l = y +1;
-
+                int l = y +1;
+                int r = n-1;
                 while(l < r){
                     int result = nums[x]+nums[y]+nums[l]+nums[r];
-                    if (result == target){
+                    if (result == target && !results.contains(Arrays.asList(nums[x], nums[y], nums[l], nums[r]))){
                         results.add(Arrays.asList(nums[x], nums[y], nums[l], nums[r]));
                         l ++;
                         r --;
@@ -55,6 +53,7 @@ public class FourSum {
         FourSum fs = new FourSum();
 
         fs.fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0);
+        fs.fourSum(new int[]{-3,-2,-1,0,0,1,2,3}, 0);
 
     }
 }

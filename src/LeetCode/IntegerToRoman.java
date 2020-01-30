@@ -11,11 +11,7 @@ D             500
 M             1000
 */
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.HashMap;
-
-public class integerToRoman {
+public class IntegerToRoman {
 
     public void intToRoman(int num){
 
@@ -60,7 +56,7 @@ public class integerToRoman {
 
 
     public static void main(String[] args){
-        integerToRoman itr = new integerToRoman();
+        IntegerToRoman itr = new IntegerToRoman();
 
         itr.intToRoman(3);
         itr.intToRoman(4);

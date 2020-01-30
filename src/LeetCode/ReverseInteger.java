@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class reverseInteger {
+public class ReverseInteger {
 
     public int reverse(int num){
 
@@ -17,7 +17,7 @@ public class reverseInteger {
 
     public static void main(String[] args){
 
-        reverseInteger ri = new reverseInteger();
+        ReverseInteger ri = new ReverseInteger();
 
         int result = ri.reverse(120);
 

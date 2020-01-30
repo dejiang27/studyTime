@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.*;
 
-public class twoSum {
+public class TwoSum {
     /*
     Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -15,7 +15,7 @@ public class twoSum {
     Because nums[0] + nums[1] = 2 + 7 = 9,
     return [0, 1].
  */
-    public int[] TwoSums(int target, int[] nums){
+    public int[] twoSums(int target, int[] nums){
 
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
@@ -43,15 +43,15 @@ public class twoSum {
         int[] nums1 = new int[]{3,2,4};
         int[] nums2 = new int[]{3,3};
 
-        twoSum ts = new twoSum();
+        TwoSum ts = new TwoSum();
 
-        int[] x = ts.TwoSums(9, nums0);
+        int[] x = ts.twoSums(9, nums0);
         System.out.println(x[0] + ", " + x[1]);
 
-        int[] y = ts.TwoSums(6, nums1);
+        int[] y = ts.twoSums(6, nums1);
         System.out.println(y[0] + ", " + y[1]);
 
-        int[] z = ts.TwoSums(6, nums2);
+        int[] z = ts.twoSums(6, nums2);
         System.out.println(z[0] + ", " + z[1]);
 
     }
