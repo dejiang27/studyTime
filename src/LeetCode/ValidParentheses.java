@@ -20,11 +20,11 @@ public class ValidParentheses {
             char y = s.charAt(x);
             if(y == '(' || y == '{' || y == '['){
                 result.push(y);
-            }else if( y == ')' && result.peek() == '(' && !result.isEmpty()){
+            }else if( y == ')' && !result.isEmpty() && result.peek() == '(' ){
                 result.pop();
-            }else if( y == ']' && result.peek() == '[' && !result.isEmpty()) {
+            }else if( y == ']' && !result.isEmpty() && result.peek() == '[') {
                 result.pop();
-            }else if( y == '}' && result.peek() == '{' && !result.isEmpty()) {
+            }else if( y == '}' && !result.isEmpty() && result.peek() == '{') {
                 result.pop();
             }else{
                 System.out.println("false");
@@ -43,5 +43,6 @@ public class ValidParentheses {
         vp.isValid("(]");
         vp.isValid("([)]");
         vp.isValid("{[]}");
+        vp.isValid("){");
     }
 }
