@@ -39,6 +39,9 @@ public class CombinationSum {
                         result.add(help);
                     }
                 }
+                else if(!helper.contains(target%candidates[x])){
+
+                }
             }
         }
         for(int x = 0; x < result.size(); x ++){
