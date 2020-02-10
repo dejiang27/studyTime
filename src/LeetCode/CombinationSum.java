@@ -1,57 +1,28 @@
 package LeetCode;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class CombinationSum {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-
-        List<List<Integer>> result = new ArrayList<>();
-        List<Integer> helper = new ArrayList<>();
-
-        for(int x = 0 ; x < candidates.length; x ++){
-            helper.add(candidates[x]);
-        }
-
-        for(int x = 0; x < candidates.length; x ++){
-            List<Integer> help = new ArrayList<>();
-            if(target%candidates[x] == 0){
-                int y = target - candidates[x];
-                while(y >= 0 ){
-                    help.add(candidates[x]);
-                    y = y - candidates[x];
-                }
-                result.add(help);
-            }else if(candidates[x] > target){
-                continue;
-            }else{
-                int y = 0;
-                if(helper.contains(target%candidates[x])){
-                    help.add(target%candidates[x]);
-                    y = target - (target%candidates[x]);
-                    while(y > 0 ){
-                        help.add(candidates[x]);
-                        y = y - candidates[x];
-                    }
-                    if(!result.contains(help)) {
-                        result.add(help);
-                    }
-                }
-                else if(!helper.contains(target%candidates[x])){
-
-                }
-            }
-        }
-        for(int x = 0; x < result.size(); x ++){
-            String list = "";
-            for(int y = 0; y < result.get(x).size(); y ++){
-                list = list + result.get(x).get(y) + ", ";
-            }
-            System.out.println(list);
-        }
+        List<List<Integer>> result = new LinkedList<>();
+        Arrays.sort(candidates);
+        backTrack(result, new ArrayList<>(), candidates, target, 0);
         return result;
+    }
+
+    private void backTrack(List<List<Integer>> result, List<Integer> tempList, int[] candidates, int remain, int start){
+        if(remain == 0){
+            result.add(new ArrayList<>(tempList));
+        }else{
+            for(int i=start; i<candidates.length;i++){
+                if(!(candidates[i]>remain)){
+                    tempList.add(candidates[i]);
+                    backTrack(result, tempList, candidates, remain-candidates[i], i);
+                    tempList.remove(tempList.size()-1);
+                }
+            }
+        }
     }
 
     public static void main(String[] args){
