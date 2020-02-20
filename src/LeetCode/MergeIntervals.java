@@ -21,7 +21,12 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
      */
     public int[][] merge(int[][] intervals) {
 
+        int[][] ans;
+        int n = intervals.length;
+        int start, end;
+
         //TODO
+
         //Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         System.out.println(intervals);
         return null;
