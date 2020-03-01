@@ -10,21 +10,26 @@ public class DailyTemperatures {
 
         for(int i = 0; i < n; i ++){
             int j = i +1;
+            if(i == n-1){
+                ans[i] = 0;
+            }
             while(j < n){
-                if(T[i]> T[j] && j < n-1){
-                    j ++;
-                    continue;
-                }else if(j == n-1){
+                if(T[i]> T[j] && j == n-1){
                     ans[i] = 0;
+                    break;
                 }else if(T[i] < T[j]){
                     ans[i] = j - i;
                     break;
+                }else{
+                    j ++;
                 }
-
             }
 
         }
-        return null;
+        for(int x:ans){
+            System.out.println(x);
+        }
+        return ans;
     }
 
     public static void main(String[] args){

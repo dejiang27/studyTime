@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/FindAllNumbersDisappearedInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ShortestUnsortedContinuousSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/SubarraySumEqualsK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/ContainsDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/ContainsDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/MergeIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/MergeIntervals.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/DailyTemperatures.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,10 +23,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/DailyTemperatures.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/FindAllNumbersDisappearedInAnArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,9 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPatterns/DecoratorPattern/FreshTomato.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/DecoratorPattern/Paneer.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/DecoratorPattern/DecoratorPatternDemo.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/DecoratorPattern/Barbeque.java" />
         <option value="$PROJECT_DIR$/src/Examples/ReadingFiles.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/reverseInteger.java" />
@@ -98,6 +104,9 @@
         <option value="$PROJECT_DIR$/src/LeetCode/FirstMissingPositive.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MergeIntervals.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DailyTemperatures.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/ShortestUnsortedContinuousSubarray.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/SubarraySumEqualsK.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/FindAllNumbersDisappearedInAnArray.java" />
       </list>
     </option>
   </component>
@@ -108,9 +117,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="726" />
+    <option name="y" value="23" />
+    <option name="width" value="714" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +151,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,9 +187,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeIntervals">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.CombinationSum" />
+  <component name="RunManager" selected="Application.SubarraySumEqualsK">
+    <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.DailyTemperatures" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -217,8 +227,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.MultiplyStrings" />
+    <configuration name="ShortestUnsortedContinuousSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ShortestUnsortedContinuousSubarray" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -230,8 +240,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.RotateArray" />
+    <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.SubarraySumEqualsK" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -245,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubarraySumEqualsK" />
+        <item itemvalue="Application.ShortestUnsortedContinuousSubarray" />
+        <item itemvalue="Application.DailyTemperatures" />
         <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.FirstMissingPositive" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.MultiplyStrings" />
-        <item itemvalue="Application.CombinationSum" />
       </list>
     </recent_temporary>
   </component>
@@ -276,9 +286,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="726" y="23" width="714" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23439667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23214285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,7 +298,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.24296296" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.24254742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,7 +317,7 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.32909605" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21914008" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23314607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,7 +326,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.2237037" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.24254742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -335,28 +346,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Examples/ReadingTest.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/CompositePattern/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/FactoryPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Examples/ReadingFiles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -686,8 +675,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DailyTemperatures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="64">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/SubarraySumEqualsK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/ShortestUnsortedContinuousSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/FindAllNumbersDisappearedInAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
