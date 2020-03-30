@@ -1,5 +1,7 @@
 package LeetCode;
 
+import java.util.Collections;
+
 public class SortList {
 
     public class ListNode{
@@ -12,11 +14,8 @@ public class SortList {
     public ListNode sortList(ListNode head){
 
         ListNode ans = null;
-
-
-        
-
         return ans;
+        //TODO
     }
 
 }

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/SubarraySumEqualsK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/SubarraySumEqualsK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/SortList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/SortList.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/ContainerWithMostWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -49,8 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CodingIsFun/MorseCode.java" />
-        <option value="$PROJECT_DIR$/src/CodingIsFun/HavelHakimiAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/CodingIsFun/ProgressiveTaxation.java" />
         <option value="$PROJECT_DIR$/src/CodingIsFun/AxisAlignedPacking.java" />
         <option value="$PROJECT_DIR$/src/CodingIsFun/AddingOneForEachDigit.java" />
@@ -100,6 +109,8 @@
         <option value="$PROJECT_DIR$/src/LeetCode/DecodeString.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/SortList.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/ContainerWithMostWater.java" />
       </list>
     </option>
   </component>
@@ -110,9 +121,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="859" />
+    <option name="x" value="740" />
     <option name="y" value="23" />
-    <option name="width" value="581" />
+    <option name="width" value="699" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -180,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubarraySumEqualsK">
+  <component name="RunManager" selected="Application.LongestPalindromicSubstring">
     <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.DailyTemperatures" />
       <module name="studyTime" />
@@ -194,8 +205,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.FirstMissingPositive" />
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.LongestPalindromicSubstring" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -248,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.SubarraySumEqualsK" />
         <item itemvalue="Application.ShortestUnsortedContinuousSubarray" />
         <item itemvalue="Application.DailyTemperatures" />
         <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.FirstMissingPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +321,7 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.32909605" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23562153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23562153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,23 +350,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CodingIsFun/MorseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingIsFun/N_QueensValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CodingIsFun/PerfectlyBalanced.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -685,8 +679,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/SortList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
