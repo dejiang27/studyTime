@@ -4,16 +4,26 @@ public class ContainerWithMostWater {
 
     public int maxArea(int[] height) {
 
-        int area = 0;
+        int Marea = 0;
         if(height.length < 2){
-            return area;
+            return Marea;
         }
 
         int n = height.length, l = 0, r = n-1;
 
-
-
-        return area;
+        while(l < r){
+            int area = (r - l) * Integer.min(height[l], height[r]);
+            if(Marea < area){
+                Marea = area;
+            }
+            if(height[l] > height[r]){
+                r --;
+            }else{
+                l ++;
+            }
+        }
+        System.out.println(Marea);
+        return Marea;
     }
 
     public static void main(String[] args){
