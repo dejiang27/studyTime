@@ -1,5 +1,8 @@
 package LeetCode;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class MergekSortedLists {
 
     public class ListNode {
@@ -11,6 +14,8 @@ public class MergekSortedLists {
     public ListNode mergeKLists(ListNode[] lists) {
 
         //TODO
+
+        ListNode ans = new ListNode(0);
 
         return null;
     }
