@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LastStoneWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/MiddleoftheLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/MoveZeroes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/JumpGameII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/JumpGameII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MinStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/LastStoneWeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="279">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -49,10 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/integerToRoman.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/RomanToInteger.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/threeSum.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/StringToInteger.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/PalindromeNumber.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/LongestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ThreeSumClosest.java" />
@@ -100,6 +99,10 @@
         <option value="$PROJECT_DIR$/src/LeetCode/JumpGameII.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Subsets.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/MoveZeroes.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/MiddleoftheLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/LastStoneWeight.java" />
       </list>
     </option>
   </component>
@@ -109,10 +112,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="857" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="822" />
     <option name="y" value="23" />
-    <option name="width" value="583" />
+    <option name="width" value="618" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -180,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Subsets">
+  <component name="RunManager" selected="Application.LastStoneWeight">
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.ContainerWithMostWater" />
       <module name="studyTime" />
@@ -220,8 +223,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.LongestPalindromicSubstring" />
+    <configuration name="LastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.LastStoneWeight" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -248,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.JumpGameII" />
         <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -279,10 +282,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="857" y="23" width="583" height="877" extended-state="0" />
+    <frame x="822" y="23" width="618" height="877" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24048707" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23941799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,7 +294,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" weight="0.24254742" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.24254742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,7 +313,7 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.32909605" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24048707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23941799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,28 +342,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/findMedianSortedArrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/PalindromeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/StringToInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -697,8 +678,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/MiddleoftheLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/MoveZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/LastStoneWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
