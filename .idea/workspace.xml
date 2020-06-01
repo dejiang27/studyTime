@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/JumpGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/MergekSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MergekSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/JumpGameII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/JumpGameII.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Subsets.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -54,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CodingIsFun/LuhnAlgotithm.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/integerToRoman.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/threeSum.java" />
@@ -105,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/JumpGame.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/JumpGameII.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Subsets.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java" />
       </list>
     </option>
   </component>
@@ -115,9 +110,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="741" />
+    <option name="x" value="857" />
     <option name="y" value="23" />
-    <option name="width" value="699" />
+    <option name="width" value="583" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -126,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +144,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -185,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumpGameII">
+  <component name="RunManager" selected="Application.Subsets">
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.ContainerWithMostWater" />
       <module name="studyTime" />
@@ -238,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.SubarraySumEqualsK" />
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Subsets" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -253,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.JumpGameII" />
         <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Application.SubarraySumEqualsK" />
       </list>
     </recent_temporary>
   </component>
@@ -284,10 +279,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="741" y="23" width="699" height="877" extended-state="0" />
+    <frame x="857" y="23" width="583" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23439878" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24048707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +291,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.24254742" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" weight="0.24254742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,7 +310,7 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.32909605" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23562153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24048707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +319,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.24254742" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" weight="0.24254742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,7 +339,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/findMedianSortedArrays.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/PalindromeNumber.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -693,11 +687,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Subsets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/BasicCalculatorII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
