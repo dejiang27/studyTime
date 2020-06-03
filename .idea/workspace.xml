@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/BestTimetoBuyandSellStockII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ValidParenthesisString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/MaximalSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/MinimumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ProductofArrayExceptSelf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,10 +24,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/ValidParenthesisString.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestCommonSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="657" column="18" selection-start-line="657" selection-start-column="18" selection-end-line="657" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -52,10 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/ThreeSumClosest.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/LetterCombinations.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/FourSum.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/IntegerToRoman.java" />
@@ -103,6 +110,10 @@
         <option value="$PROJECT_DIR$/src/LeetCode/LastStoneWeight.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BestTimetoBuyandSellStockII.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ValidParenthesisString.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/ProductofArrayExceptSelf.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/MinimumPathSum.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/MaximalSquare.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/LongestCommonSubsequence.java" />
       </list>
     </option>
   </component>
@@ -113,9 +124,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="491" />
-    <option name="y" value="28" />
-    <option name="width" value="770" />
+    <option name="x" value="583" />
+    <option name="y" value="79" />
+    <option name="width" value="886" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -183,22 +194,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidParenthesisString">
+  <component name="RunManager" selected="Application.LongestCommonSubsequence">
     <configuration name="BestTimetoBuyandSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.BestTimetoBuyandSellStockII" />
-      <module name="studyTime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JumpGameII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.JumpGameII" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -223,8 +221,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Subsets" />
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.LongestCommonSubsequence" />
+      <module name="studyTime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductofArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ProductofArrayExceptSelf" />
       <module name="studyTime" />
       <extension name="coverage">
         <pattern>
@@ -251,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubsequence" />
+        <item itemvalue="Application.ProductofArrayExceptSelf" />
         <item itemvalue="Application.ValidParenthesisString" />
         <item itemvalue="Application.BestTimetoBuyandSellStockII" />
         <item itemvalue="Application.LastStoneWeight" />
-        <item itemvalue="Application.Subsets" />
-        <item itemvalue="Application.JumpGameII" />
       </list>
     </recent_temporary>
   </component>
@@ -282,10 +293,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="491" y="28" width="770" height="877" extended-state="0" />
+    <frame x="573" y="91" width="886" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2361111" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.234375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -294,8 +305,8 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.24254742" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.23490813" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39895013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.31336406" />
@@ -313,16 +324,16 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.32909605" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23784722" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.234375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.24254742" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" weight="0.24254742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,35 +353,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/ThreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/FourSum.java" />
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/ThreeSumClosest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/RemoveElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -712,8 +694,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/ValidParenthesisString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="330">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/ProductofArrayExceptSelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/MinimumPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/MaximalSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="657" column="18" selection-start-line="657" selection-start-column="18" selection-end-line="657" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestCommonSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
