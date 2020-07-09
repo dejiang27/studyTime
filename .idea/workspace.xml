@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,20 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -122,8 +111,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="805" />
-    <option name="y" value="196" />
+    <option name="x" value="724" />
+    <option name="y" value="142" />
     <option name="width" value="632" />
     <option name="height" value="704" />
   </component>
@@ -291,7 +280,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="805" y="196" width="632" height="704" extended-state="0" />
+    <frame x="724" y="142" width="632" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22748815" />
@@ -713,17 +702,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
