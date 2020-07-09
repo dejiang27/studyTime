@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ValidPerfectSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -52,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/SearchInRotatedSortedArrayII.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/FindPositionOfElementInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ValidSudoku.java" />
@@ -103,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/OddEvenLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ValidPerfectSquare.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java" />
       </list>
     </option>
   </component>
@@ -112,11 +121,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="40" />
-    <option name="y" value="23" />
-    <option name="width" value="700" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="805" />
+    <option name="y" value="196" />
+    <option name="width" value="632" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,10 +291,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="700" height="877" extended-state="0" />
+    <frame x="805" y="196" width="632" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22796352" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22748815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -313,7 +322,7 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.32909605" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22862454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22748815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,13 +351,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/CountAndSay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/ValidSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -713,8 +715,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/FindTheTownJudge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/MaximumSumCircularSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
