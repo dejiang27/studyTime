@@ -1,5 +1,8 @@
 package LeetCode;
 
+import javafx.scene.layout.ColumnConstraints;
+
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MergeIntervals {
@@ -21,20 +24,19 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
      */
     public int[][] merge(int[][] intervals) {
 
-        int[][] ans;
-        int n = intervals.length;
-        int start, end;
+        ArrayList<int[]> anss = new ArrayList<>();
 
+        Arrays.sort(intervals, (a,b) -> Integer.compare(a[0], b[0]));
+        for(int i = 0 ; i < intervals.length; i ++){
+            System.out.println(intervals[i][0]+"+" +intervals[i][1]);
+        }
         //TODO
-
-        //Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
-        System.out.println(intervals);
         return null;
 
     }
 
     public static void main(String[] args){
         MergeIntervals mi = new MergeIntervals();
-        mi.merge(new int[][]{{1,3}, {2,6},{8,10},{15,18}});
+        mi.merge(new int[][]{{1,3}, {2,6},{8,10},{15,18}, {2,3}});
     }
 }
