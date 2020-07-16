@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/AverageSalaryExcludingTheMinimumAndMaximumSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/CanMakeArithmeticProgressionFromSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/FinalPricesWithASpecialDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/FindTheDistanceValueBetweenTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/NumberOfGoodPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/RunningSumOf1dArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ShuffleTheArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/SortArrayByParity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/IsSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/IsSubsequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/MergeIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/MergeIntervals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/QueueReconstructionByHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/QueueReconstructionByHeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +31,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -657,8 +647,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
