@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57930ceb-358f-4d85-8734-76f233052f05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/AddToArrayFormOfInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/SquaresofASortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studyTime/LeetCode/MergeIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studyTime/LeetCode/MergeIntervals.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,23 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/QueueReconstructionByHeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -62,8 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/SortList.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/RemoveNthNodeFromEndofList.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MergekSortedLists.java" />
@@ -112,7 +102,9 @@
         <option value="$PROJECT_DIR$/src/LeetCode/FindTheDistanceValueBetweenTwoArrays.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/SortArrayByParity.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/AverageSalaryExcludingTheMinimumAndMaximumSalary.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/AddToArrayFormOfInteger.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/SquaresofASortedArray.java" />
       </list>
     </option>
   </component>
@@ -123,9 +115,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="658" />
+    <option name="x" value="844" />
     <option name="y" value="23" />
-    <option name="width" value="782" />
+    <option name="width" value="596" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -193,7 +185,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeIntervals">
+  <component name="RunManager" selected="Application.AddToArrayFormOfInteger">
+    <configuration name="AddToArrayFormOfInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.AddToArrayFormOfInteger" />
+      <module name="studyTime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComplementofBase10Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.ComplementofBase10Integer" />
       <module name="studyTime" />
@@ -246,26 +251,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCharactersByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.SortCharactersByFrequency" />
-      <module name="studyTime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddToArrayFormOfInteger" />
         <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.NumberOfGoodPairs" />
         <item itemvalue="Application.IsSubsequence" />
         <item itemvalue="Application.ComplementofBase10Integer" />
-        <item itemvalue="Application.SortCharactersByFrequency" />
       </list>
     </recent_temporary>
   </component>
@@ -292,10 +284,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="658" y="23" width="782" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="844" y="23" width="596" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12702702" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12567568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +295,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" visible="true" weight="0.21916011" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49931225" weight="0.22628726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39895013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,20 +321,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/JumpGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/JumpGameII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Subsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -638,20 +615,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/QueueReconstructionByHeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/FindCommonCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/AddToArrayFormOfInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/SquaresofASortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/QueueReconstructionByHeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

@@ -9,6 +9,7 @@ public class FindCommonCharacters {
         char[] check = A[0].toCharArray();
         List<String> ans = new ArrayList<>();
 
+        //TODO
 
 
         return null;
